@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 400px;
+  width: 400px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 40px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.container div button {
+  margin: 30px 15px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+.scissor:hover {
+  cursor: url("iconmonstr-eat-1.svg"), auto;
+  background-color: white;
+  color: black;
+}
+
+.paper:hover {
+  cursor: url("iconmonstr-file-5.svg"), auto;
+  background-color: white;
+  color: black;
+}
+
+.rock:hover {
+  cursor: url("iconmonstr-circle-filled.svg"), auto;
+  background-color: white;
+  color: black;
+}
